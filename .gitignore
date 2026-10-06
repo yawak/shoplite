@@ -1,0 +1,30 @@
+# Build output
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+bin/
+out/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets and local config: never commit these
+.env
+*.env.local
+application-local.yml
+application-local.properties
+
+# Claude Code: personal settings stay local, shared agents/skills are committed
+.claude/settings.local.json
+
+# Logs
+*.log
+logs/
